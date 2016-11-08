@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.virus17.systemdesign.snakeAndLadder.SnakeAndLadderBoardCell" 
+    project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/SnakeAndLadderBoardCell.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="98" width="214" x="1942" y="624"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.virus17.systemdesign.snakeAndLadder.Board2D" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/Board2D.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="274" x="2206" y="624"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.virus17.systemdesign.snakeAndLadder.Player" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="222" x="948" y="-66"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.virus17.systemdesign.snakeAndLadder.Snake" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/Snake.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="345" x="1157" y="624"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.virus17.systemdesign.snakeAndLadder.GameEventPublisher" 
+    project="javadesigning" file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/GameEventPublisher.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="214" x="1395" y="-66"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.virus17.systemdesign.snakeAndLadder.SnLNormalGameStrategy" 
+    project="javadesigning" file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/SnLNormalGameStrategy.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="511" x="2520" y="870"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="com.virus17.systemdesign.snakeAndLadder.Observable" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/Observable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="214" x="1649" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="com.virus17.systemdesign.snakeAndLadder.Coordinate" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/Coordinate.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="152" width="214" x="1157" y="870"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.virus17.systemdesign.snakeAndLadder.GameFactory" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/GameFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="98" width="214" x="144" y="-66"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.virus17.systemdesign.snakeAndLadder.App" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/App.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="214" x="694" y="-66"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="11" language="java" name="com.virus17.systemdesign.snakeAndLadder.Game" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/Game.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="214" x="1903" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="12" language="java" name="com.virus17.systemdesign.snakeAndLadder.SnLGameStrategy" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/SnLGameStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="206" width="511" x="2520" y="624"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" language="java" name="com.virus17.systemdesign.snakeAndLadder.Observer" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/Observer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="80" width="214" x="1395" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="com.virus17.systemdesign.snakeAndLadder.SnLHumanPlayBehavior" 
+    project="javadesigning" file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/SnLHumanPlayBehavior.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="214" x="101" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.virus17.systemdesign.snakeAndLadder.SnakeAndLadderPlayer" 
+    project="javadesigning" file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/SnakeAndLadderPlayer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="188" width="238" x="1117" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="16" language="java" name="com.virus17.systemdesign.snakeAndLadder.PlayBehavior" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/PlayBehavior.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="80" width="214" x="609" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="17" language="java" name="com.virus17.systemdesign.snakeAndLadder.SnLComputerPlayBehavior" 
+    project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/SnLComputerPlayBehavior.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="98" width="214" x="355" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.virus17.systemdesign.snakeAndLadder.SnakeAndLadderBoard" 
+    project="javadesigning" file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/SnakeAndLadderBoard.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="224" width="387" x="2157" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.virus17.systemdesign.snakeAndLadder.Dice" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/Dice.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="214" x="863" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.virus17.systemdesign.snakeAndLadder.Ladder" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/Ladder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="360" x="1542" y="624"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.virus17.systemdesign.snakeAndLadder.SnLPlayBehavior" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/SnLPlayBehavior.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="80" width="214" x="440" y="-66"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="22" language="java" name="com.virus17.systemdesign.snakeAndLadder.Object" project="javadesigning" 
+    file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/Object.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="62" width="214" x="1542" y="870"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="23" language="java" name="com.virus17.systemdesign.snakeAndLadder.SnakeAndLadderGame" 
+    project="javadesigning" file="/javadesigning/src/com/virus17/systemdesign/snakeAndLadder/SnakeAndLadderGame.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="386" width="254" x="1776" y="-66"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="24">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="25">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="26" name="gameListeners"/>      
+      <multiplicity id="27" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="28">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="29">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="30" name="dice"/>      
+      <multiplicity id="31" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="32">    
+    <bendpoint x="1126" y="624"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="33" name="playerPosition"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <bendpoint x="2574" y="360"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="36" name="gameStrategy"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="39">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="40" name="next"/>      
+      <multiplicity id="41" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="42">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="43" name="headPosition"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <realization id="46">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="47">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="48" name="tailPosition"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="50">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="51" name="gameStrategy"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="54" name="dice"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="57" name="board"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="60" name="playBehavior"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="62">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <generalization id="63">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <association id="64">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="65" name="endPosition"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="68" name="SnLBoard"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="71" name="board"/>      
+      <multiplicity id="72" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="74" name="objectPlaceholder"/>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="77" name="coordinate"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="79">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <generalization id="80">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <realization id="81">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <association id="82">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="83" name="gamePlayersQueue"/>      
+      <multiplicity id="84" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="86" name="startPosition"/>      
+      <multiplicity id="87" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="88">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

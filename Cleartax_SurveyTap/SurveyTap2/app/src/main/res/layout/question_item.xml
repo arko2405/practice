@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="@dimen/ten_dp"
+              android:paddingRight="@dimen/ten_dp"
+              android:paddingBottom="@dimen/ten_dp"
+              android:paddingEnd="@dimen/ten_dp">
+
+    <TextView
+        android:id="@+id/question"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/options_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <RadioButton
+            android:id="@+id/first_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/second_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            />
+        <RadioButton
+            android:id="@+id/third_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            />
+        <RadioButton
+            android:id="@+id/fourth_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        />
+
+</LinearLayout>

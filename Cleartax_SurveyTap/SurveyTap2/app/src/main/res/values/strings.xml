@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SurveyTap</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="action_sign_in">SIGN IN</string>
+    <string name="login">Login</string>
+    <string name="submit">SUBMIT</string>
+    <string name="add">Add Question</string>
+    <string name="vendor_screen">Results</string>
+    <string name="question">Question</string>
+    <string name="first_option">First Option</string>
+    <string name="second_option">Second Option</string>
+    <string name="third_option">Third Option</string>
+    <string name="fourth_option">Fourth Option</string>
+    <string name="question_screen">Question Form</string>
+</resources>
