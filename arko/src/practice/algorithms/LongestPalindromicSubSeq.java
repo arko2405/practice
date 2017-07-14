@@ -1,14 +1,19 @@
 package practice.algorithms;
 
+import java.util.Scanner;
+
 public class LongestPalindromicSubSeq {
 
-	static String seq = "forgeeksskeegfor";
+	//static String seq = "abcdmadamdfghabcdedcgsprinklrlk";
 
 	public static void main(String[] args) {
-		longestPaindrome();
+		Scanner sc = new Scanner(System.in);
+		while(sc.hasNext()){
+		longestPaindrome(sc.next());
+		}
 	}
 
-	private static void longestPaindrome() {
+	private static void longestPaindrome(String seq) {
 		int length = seq.length();
 		boolean isPalindrome[][] = new boolean[length][length];
 		int max = 1;
@@ -36,6 +41,6 @@ public class LongestPalindromicSubSeq {
 				}
 			}
 		}
-		System.out.println(seq.substring(start, start+max)+ "    length "+max);
+		System.out.println(seq.substring(start, start+max));
 	}
 }
